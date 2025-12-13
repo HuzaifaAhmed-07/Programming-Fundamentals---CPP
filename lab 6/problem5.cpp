@@ -7,14 +7,14 @@ struct students
     string rollno;
     float marks;
   };
-void array_sort(array<students,100>&a,int n);
+void array_sort(array<students,100>&a,int n) ;
 int main()
 {
    int n;
    array<students,100> a;
    cout<<"Enter no of students you want to enter : ";
    cin>>n;
-   cout<<"Start entering students details : "<<endl;
+   cout<<"Start entering students details : "<<endl ;
    for(int i=0;i<n;i++)
   {
      cout<<"Enter "<<i+1<<" student name , roll no and marks percentage :";
