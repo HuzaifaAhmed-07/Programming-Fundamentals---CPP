@@ -21,11 +21,11 @@ int main()
      cin>>a[i].name>>a[i].rollno>>a[i].marks;
   }
   array_sort(a,n);
-  cout<<"NAME          ROLLNO      MARKS"<<endl;
+  cout<<"NAME          ROLLNO      MARKS"<<endl ;
   for(int i=0;i<n;i++)
   {
      // cout<<"student "<<i+1<<" details are : "<<endl;
-     cout<<a[i].name<<"          "<<a[i].rollno<<"      "<<a[i].marks<<endl;
+     cout<<a[i].name<<"          "<<a[i].rollno<<"      "<<a[i].marks<<endl ;
   }
 }
 void array_sort(array<students,100>&a,int n)
