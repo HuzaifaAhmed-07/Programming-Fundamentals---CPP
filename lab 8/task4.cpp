@@ -10,7 +10,7 @@ int main()
   {
     cin>>a[i];
   }
-  cout<<"Enter the index to which first array is sorted : ";
+  cout<<"Enter the index to which first array is sorted  : ";
   cin>>mid;
   int i = 0;
   int j = mid + 1;
